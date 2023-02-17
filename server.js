@@ -14,7 +14,8 @@ app.get('/', (req, res) => {
     // res.status(500).json({message: "Error"})
     // res.download("server.js")
     // render the index.ejs file and send information in {}
-    res.render('index', {text: 'World'})
+    //res.render('index', {text: 'World'})
+    res.send('Hy')
 })
 
 // require users.js
