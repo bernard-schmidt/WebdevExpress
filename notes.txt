@@ -1,3 +1,0 @@
-ejs is a view engie that loads html files
-<% means run code on the server,
-= means output the code on the page
